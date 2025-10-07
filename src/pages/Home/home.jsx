@@ -3,10 +3,13 @@ import './home.css'
 import Header from '../../components/Header/Header'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 const home = () => {
+
+const [category, setCategory] = React.useState("All")
+
   return (
     <div>
       <Header/>
-      <ExploreMenu/>
+      <ExploreMenu category={category} setCategory={setCategory}/>
     </div>
   )
 }
