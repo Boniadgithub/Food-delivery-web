@@ -11,7 +11,7 @@ const StoreContextProvider = (props) => {
         setCartItems((prev)=>({...prev,[itemId]:1}))
     }
     else {
-      setCartItems((prev) => ({...prev, [itemId]: prev[itemId]+1 }));
+      setCartItems((prev) => ({...prev, [itemId]: prev[itemId]+1 }))
     }
   }
 
@@ -26,10 +26,11 @@ useEffect(()=>{
   const contextValue = {
     // you can store shared data or functions here later
          food_list,
-         cartItems,
-         setCartItems,
-         addToCart,
-         removeFromCart
+          cartItems,
+          setCartItems,
+          addToCart,
+          removeFromCart
+         
   }
 
   return (
