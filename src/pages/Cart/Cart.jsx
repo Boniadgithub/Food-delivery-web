@@ -41,10 +41,31 @@ const Cart = () => {
       <div className='cart-total'>
         <h2>Cart Total</h2>
         <div>
-          <div className='cart-total-detail'></div>
-          <div className='cart-total-detail'></div>
-          <div className='cart-total-detail'></div>
+          <div className='cart-total-detail'>
+            <p>subtotal</p>
+            <p>{0}</p>
+          </div>
+          <hr/>
+          <div className='cart-total-detail'>
+            <p>Delivery free</p>
+            <p>{2}</p>
+          </div>
+          <hr/>
+          <div className='cart-total-detail'>
+             <b>Total</b>
+             <b>{0}</b>
+          </div>
         </div>
+        <button className='cart-checkout'>Checkout</button>
+      </div>
+      <div className="cart-promocode">
+         <div>
+          <p>If you have a promo code, Enter it here</p>
+          <div className='cart-promocode-input'>
+            <input type="text" placeholder='Enter promo code' />
+            <button>Submit</button>
+          </div>
+         </div>
       </div>
     </div>
     </div>

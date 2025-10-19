@@ -29,3 +29,18 @@
 .cart-items-item .cross{
     cursor: pointer; 
 }
+.cart-items-item .cross:hover{
+    color: red;
+}
+.cart-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: max(12vw,20px);
+}
+.cart-total{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   gap: 20ox;
+}
