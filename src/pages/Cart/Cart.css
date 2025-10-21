@@ -61,3 +61,34 @@
     border-radius: 4px;
     cursor: pointer;
 }
+.cart-promocode{
+    flex: 1;
+    
+}
+.cart-promocode p{
+    color: #555;
+}
+.cart-promocode-input{
+    
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #eaeaea;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+.cart-promocode-input input{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    width: 70%;
+    outline: none;
+}
+.cart-promocode-input button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
